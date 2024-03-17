@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <script>
+        // argument and return
+        function areaofsquare(side) {
+            const area = side * side;
+            return area;
+        }
+        const A = areaofsquare(5);
+        console.log(`Area of Square :${A} `);
+
+        // Argument but no Return
+        function areaofsquare(side) {
+            const area = side * side;
+            console.log(`Area of Square :${area} `);
+        }
+        areaofsquare(20);
+
+        // No Argument but Return
+        function areaofsquare() {
+            const area = 50;
+            return area;
+        }
+        const B = areaofsquare();
+        console.log(`Area of Square :${B} `);
+
+        // No Argument but No Return
+        const side = 30;
+        function areaofsquare() {
+            const area = side * side;
+            console.log(`Area of Square :${area} `);
+        }
+        areaofsquare();
+    </script>
+</body>
+
+</html>
